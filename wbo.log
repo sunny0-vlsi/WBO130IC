@@ -1,0 +1,91 @@
+Circuit: * C:\users\rguktrkvalley\My Documents\LTspiceXVII\wbo.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.08884
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.03922
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.02313
+vernier = 0.00520833
+vernier = 0.00260417
+Gmin = 1.01616
+vernier = 0.00347222
+vernier = 0.00173611
+vernier = 0.00231481
+Gmin = 1.01205
+vernier = 0.00115741
+vernier = 0.00154321
+vernier = 0.000771604
+Gmin = 1.0104
+vernier = 0.00102881
+Gmin = 1.00812
+vernier = 0.000514403
+vernier = 0.00068587
+Gmin = 1.00704
+vernier = 0.000514403
+vernier = 0.00068587
+vernier = 0.000514402
+Gmin = 1.00622
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 12.1212%
+Source Step = 19.697%
+Source Step = 27.2727%
+Source Step = 34.8485%
+Source Step = 42.4242%
+vernier = 0.375
+Source Step = 52.6515%
+Source Step = 64.0152%
+Source Step = 75.3788%
+Source Step = 86.7424%
+Source Step = 98.1061%
+Source stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(n002)
+DC component:-0.344294
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	7.850e+02	2.446e+00	1.000e+00	  -51.77°	    0.00°
+    2   	1.570e+03	8.475e-01	3.464e-01	  147.07°	  198.84°
+    3   	2.355e+03	3.919e-01	1.602e-01	  155.27°	  207.04°
+    4   	3.140e+03	2.003e-01	8.190e-02	  171.68°	  223.45°
+    5   	3.925e+03	1.757e-01	7.181e-02	  167.07°	  218.85°
+    6   	4.710e+03	1.457e-01	5.956e-02	  165.53°	  217.30°
+    7   	5.495e+03	1.231e-01	5.033e-02	  171.51°	  223.28°
+    8   	6.280e+03	1.101e-01	4.501e-02	  172.77°	  224.54°
+    9   	7.065e+03	9.457e-02	3.866e-02	  175.13°	  226.91°
+Total Harmonic Distortion: 40.883884%(42.395564%)
+
+
+
+Date: Tue Jan 07 23:21:03 2025
+Total elapsed time: 0.750 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 18416
+traniter = 11269
+tranpoints = 3897
+accept = 2880
+rejected = 1017
+matrix size = 14
+fillins = 9
+solver = Normal
+Matrix Compiler1: 1.18 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: 1.47 KB object code size  0.8/0.7/[0.3]
+
